@@ -1,2 +1,5 @@
-<app-photo image="https://magazinefeminina.com.br/wp-content/uploads/2020/09/wp4355353.jpg" description="sabre de luz azul"></app-photo>
-<app-photo image="https://magazinefeminina.com.br/wp-content/uploads/2020/09/wp4355353.jpg" description="sabre de luz azul"></app-photo>
+<app-photo
+  *ngFor="let photo of photos"
+  [image]="photo.image"
+  [description]="photo.description"
+></app-photo>

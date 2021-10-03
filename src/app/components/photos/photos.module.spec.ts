@@ -1,13 +1,13 @@
-import { PhotosModule } from './photos.module';
+// import { PhotosModule } from './photos.module';
 
-describe('PhotosModule', () => {
-  let photosModule: PhotosModule;
+// describe('PhotosModule', () => {
+//   let photosModule: PhotosModule;
 
-  beforeEach(() => {
-    photosModule = new PhotosModule();
-  });
+//   beforeEach(() => {
+//     photosModule = new PhotosModule();
+//   });
 
-  it('should create an instance', () => {
-    expect(photosModule).toBeTruthy();
-  });
-});
+//   it('should create an instance', () => {
+//     expect(photosModule).toBeTruthy();
+//   });
+// });

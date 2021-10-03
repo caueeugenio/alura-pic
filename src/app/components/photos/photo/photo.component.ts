@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: "app-photo",
@@ -6,6 +6,6 @@ import { Component, Input, OnInit } from "@angular/core";
   styleUrls: ["./photo.component.css"],
 })
 export class PhotoComponent {
-  @Input() image;
-  @Input() description;
+  @Input() url = '';
+  @Input() description = '';
 }
